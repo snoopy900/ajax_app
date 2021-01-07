@@ -13,6 +13,7 @@ function memo() {
       }
       const item = XHR.response.post;
       const list = document.getElementById("list");
+      // console.log(list)
       const formText = document.getElementById("content");
       const HTML = `
         <div class="post" data-id=${item.id}>
